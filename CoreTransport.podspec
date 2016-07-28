@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
    s.frameworks = 'Realm'
    s.dependency 'AFNetworking'
    s.dependency 'jetfire'
+   s.dependency 'Realm'
 
    s.requires_arc = true
 end
