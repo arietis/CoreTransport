@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
    s.ios.deployment_target = '8.0'
 
    s.frameworks = 'Realm'
+   s.dependency 'AFNetworking'
 
    s.requires_arc = true
 end
